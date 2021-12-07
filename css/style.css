@@ -1,0 +1,734 @@
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  background: #fff;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background: #121212;
+}
+
+.logo {
+  width: 100px;
+  margin-top: 10px;
+}
+
+.header-links {
+  float: right;
+  margin: 32px 0 0 25px;
+  padding-bottom: 8px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.header-links:hover {
+  border-bottom: 2px #fff solid;
+}
+
+.main {
+  height: 400px;
+  background-color: #000;
+  color: #fff;
+  position: relative;
+}
+
+.main::before,
+.main::after {
+  content: "";
+  position: absolute;
+  height: 100px;
+  bottom: -70px;
+  right: 0;
+  left: 0;
+  background: #fff;
+  transform: skewY(-3deg);
+  -webkit-transform: skewY(-3deg);
+  -moz-transform: skewY(-3deg);
+  -ms-transform: skewY(-3deg);
+}
+
+.main h1 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.main p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.main button {
+  background: rgb(45, 223, 155);
+  border: none;
+  padding: 15px 25px;
+  border-radius: 5px;
+  margin-top: 25px;
+  transition: 0.2s all;
+  text-transform: uppercase;
+}
+
+.main button a {
+  color: #000;
+  font-weight: 700;
+}
+
+.main button:hover {
+  cursor: pointer;
+  transform: scale(0.98);
+}
+
+.intro {
+  margin-top: 40px;
+}
+
+.intro h1 {
+  font-weight: 500;
+}
+
+.intro p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.index-form {
+  background: #121212;
+  color: #fff;
+  width: 360px;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  margin: 75px 0 0 75px;
+  position: relative;
+  z-index: 100;
+}
+
+.index-form p {
+  font-size: 24px;
+  padding-bottom: 13px;
+  font-weight: 500;
+}
+
+.index-form select {
+  margin-bottom: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  background: #2e2e2e;
+  color: #fff;
+  font-weight: 600;
+  padding: 8px 16px;
+  width: 200px;
+}
+
+.index-form option {
+  background: #121212;
+  color: #fff;
+}
+
+.index-form input {
+  display: block;
+  padding: 10px 25px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  background: #2ddf9b;
+  color: #000;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: all 0.2s;
+  margin-top: 10px;
+}
+
+.index-form input:hover {
+  cursor: pointer;
+  transform: scale(0.98);
+}
+
+.index-data {
+  text-align: center;
+  color: #fff;
+}
+
+.perfect {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  line-height: 28px;
+  margin: 40px 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.index-data img {
+  width: 125px;
+  filter: brightness(0) invert(1);
+  margin-top: 8px;
+}
+
+.index-data-card {
+  background: #080808;
+  border-radius: 10px;
+  width: 180px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.data-number {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.data-text {
+  font-size: 18px;
+  padding: 5px 0 10px 0;
+  font-weight: 500;
+  line-height: 25px;
+  color: #ccc;
+}
+
+.imob-parceira {
+  margin-left: 50px;
+}
+
+.imov-cadastrado,
+.ctt-fechado {
+  margin-left: 140px;
+}
+
+.tour-info {
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+  line-height: 25px;
+  background: #080808;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  padding: 15px 30px;
+  margin-top: 80px;
+}
+
+.tour-info p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+
+.tour-info button {
+  width: 100%;
+  border: none;
+  background: #2ddf9b;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 10px 0;
+  margin: 17px 0 3px 0;
+  transition: 0.2s all;
+}
+
+.tour-info button:hover {
+  transform: scale(0.98);
+  cursor: pointer;
+}
+
+.tour-3d iframe {
+  border-radius: 15px;
+  margin: 57px 0 40px 40px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.vantagem {
+  width: 100%;
+  background: #2ddf9b;
+  color: #000;
+  text-align: center;
+}
+
+.vantagem h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 62px 0 10px 0;
+}
+
+.vantagem p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.vantagem button {
+  border: none;
+  background: #121212;
+  color: #fff;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: 0.2s all;
+  margin-top: 10px;
+}
+
+.vantagem button:hover {
+  transform: scale(0.98);
+  cursor: pointer;
+}
+
+.vantagem img {
+  filter: invert(1);
+}
+
+.parceiros {
+  margin-top: 70px;
+  padding-bottom: 140px;
+}
+
+.parceiros h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.card {
+  background: #fff;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  display: inline-block;
+  padding-top: 15px;
+  width: 110px;
+  height: 140px;
+  margin: 35px 10px 60px 10px;
+  transition: 0.2s all;
+}
+
+.card p {
+  margin-bottom: 7px;
+}
+
+.card:hover {
+  transform: translateY(-15px);
+}
+
+footer {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  padding: 32px 0;
+  position: absolute;
+  bottom: 0;
+}
+
+footer h2 {
+  font-size: 32px;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+}
+
+footer ul li {
+  padding-top: 4px;
+}
+
+.catalogo-form {
+  text-align: center;
+}
+
+.pesquisa {
+  padding: 10px 20px;
+  width: 500px;
+  border: 1px solid rgb(51, 51, 51, 0.2);
+  box-shadow: 0px 2px 4px rgb(51, 51, 51, 0.1);
+  border-radius: 6px;
+  margin: 40px 0;
+}
+
+.pesquisa-btn {
+  border: none;
+  background: #e6e6e6;
+  color: #121212;
+  border-radius: 6px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  transition: 0.2s all;
+}
+
+.pesquisa-btn:hover {
+  background: #121212;
+  color: #fff;
+  cursor: pointer;
+}
+
+.cat-imovel {
+  box-shadow: 0px 2px 5px rgb(51, 51, 51, 0.4);
+  border-radius: 15px;
+  margin-bottom: 30px;
+  height: 280px;
+  color: #fff;
+  background: #121212;
+}
+
+.cat-imovel iframe {
+  border-radius: 15px 15px 0 0;
+}
+
+.cat-title {
+  font-size: 18px;
+  text-align: center;
+  margin: 8px auto;
+  padding: 6px 0;
+  text-decoration: none;
+  background: #2ddf9b;
+  border-radius: 4px;
+  transition: 0.2s ease;
+  width: 200px;
+}
+
+.cat-title h3 {
+  font-weight: 600 !important;
+}
+
+.cat-imovel a {
+  color: #000;
+}
+
+.cat-title:hover {
+  background: #fff;
+}
+
+.cat-imovel h4 {
+  font-size: 16px;
+  display: inline-block;
+  padding: 5px 0 0 10px;
+  margin-bottom: 8px;
+}
+
+.cat-imovel h5 {
+  font-size: 16px;
+  display: inline-block;
+  padding: 5px 0 0 10px;
+}
+
+.cat-imovel p {
+  font-size: 12px;
+  display: inline-block;
+}
+
+.cat-imovel button:hover {
+  cursor: pointer;
+  background: var(--cor-secundaria);
+}
+
+/* TELA CADASTRO IMOVEL */
+.form-cadastro {
+  margin: 0 0 0 300px;
+  padding-bottom: 140px;
+}
+
+.form-cadastro h3 {
+  margin: 20px 0 5px 0;
+  font-weight: 500;
+}
+
+.form-cadastro select {
+  padding: 5px 10px;
+  border: none;
+  background: #2ddf9b;
+  color: #121212;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+.form-cadastro option {
+  background: #121212;
+  color: #fff;
+}
+
+.form-cadastro textarea {
+  resize: none;
+  width: 300px;
+  height: 100px;
+  border: 4px solid #121212;
+  padding: 10px 10px;
+  font-size: 14px;
+}
+
+.form-cadastro-texto {
+  border: 4px solid #121212;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.form-send {
+  margin: 20px 0 40px 0;
+  padding: 10px 20px;
+  font-weight: 700;
+  border: none;
+  background: #2ddf9b;
+  color: #000;
+  border-radius: 4px;
+  text-transform: uppercase;
+  transition: 0.2s ease;
+}
+
+.form-send:hover {
+  background: #121212;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* FIM TELA CADASTRO IMOVEL */
+
+/* CSS TELA ALTERAR DADOS */
+.form-alterar {
+  margin: 0 0 0 300px;
+  padding-bottom: 140px;
+}
+
+.form-alterar h3 {
+  margin: 20px 0 5px 0;
+  font-weight: 500;
+}
+
+.form-alterar select {
+  padding: 5px 10px;
+  border: none;
+  background: #2ddf9b;
+  color: #121212;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.form-alterar option {
+  background: #121212;
+  color: #fff;
+}
+
+.form-alterar textarea {
+  resize: none;
+  width: 300px;
+  height: 100px;
+  border: 4px solid #121212;
+  padding: 10px 10px;
+  font-size: 14px;
+}
+
+.form-alterar-texto {
+  border: 4px solid #121212;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+/* FIM CSS TELA ALTERAR DADOS */
+
+/* TELA CADASTRO USUÁRIO */
+.form-cadastro-usuario {
+  margin: 0 0 0 300px;
+}
+
+.form-cadastro-usuario h3 {
+  margin: 20px 0 5px 0;
+  font-weight: 500;
+}
+
+.form-cadastro-usuario-texto {
+  border: 4px solid #121212;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+/* FIM TELA CADASTRO USUÁRIO */
+
+/* TELA USUÁRIO */
+
+.imoveis-cadastrados h1 {
+  text-align: center;
+}
+
+.imoveis-cadastrados {
+  margin-top: 20px;
+}
+
+.quadro-imovel-usuario {
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: #000;
+  box-shadow: 0px 2px 5px rgb(51, 51, 51, 0.4);
+  margin-bottom: 20px;
+}
+
+.quadro-imovel-usuario h3,
+.quadro-imovel-usuario p,
+.deletar-imovel-usuario h3 {
+  display: inline;
+}
+
+.quadro-imovel-usuario h3,
+.deletar-imovel-usuario h3 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.quadro-imovel-usuario p {
+  font-size: 14px;
+}
+
+.quadro-imovel-usuario button {
+  background: #2ddf9b;
+  color: #121212;
+  font-weight: 600;
+  padding: 8px 0;
+  border-radius: 6px;
+  margin: 10px 0 10px 17px;
+  width: 100px;
+  border: none;
+  transition: 0.2s ease;
+}
+
+.quadro-imovel-usuario button:hover {
+  background: #ccc;
+  cursor: pointer;
+}
+
+.quadro-imovel-usuario a {
+  color: #121212;
+  font-weight: 500;
+}
+/* FIM TELA USUÁRIO */
+
+/* HEADER */
+.login {
+  font-size: 12px;
+  margin: 35px 0 0 10px;
+}
+
+.cad-header {
+  margin-right: 15px;
+}
+
+.login-margin {
+  margin-top: 20px;
+}
+
+.login-send {
+  margin: 20px 0;
+  padding: 10px 20px;
+  font-weight: 700;
+  border: none;
+  background: #2ddf9b;
+  color: #000;
+  border-radius: 4px;
+  text-transform: uppercase;
+  transition: 0.2s ease;
+}
+
+.login-send:hover {
+  background: #121212;
+  color: #fff;
+  cursor: pointer;
+}
+
+.cadastrar {
+  margin-bottom: 40px;
+  padding: 10px 20px;
+  border: none;
+  background: #121212;
+  border-radius: 4px;
+  text-transform: uppercase;
+  transition: 0.2s ease;
+}
+
+.cadastrar a {
+  font-weight: 700;
+  color: #fff;
+}
+
+.footerfix {
+  min-height: 100%;
+  position: relative;
+}
+
+.paddingfix {
+  padding-bottom: 140px;
+}
+
+.deletar-imovel-usuario {
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: #000;
+  box-shadow: 0px 2px 5px rgb(51, 51, 51, 0.4);
+  margin: 40px auto 0px auto;
+  max-width: 230px;
+  text-align: center;
+}
+
+.deletar-imovel-usuario input {
+  margin: 10px 0;
+  padding: 10px 20px;
+  font-weight: 700;
+  border: none;
+  background: #ccc;
+  color: #000;
+  border-radius: 4px;
+  text-transform: uppercase;
+  transition: 0.2s ease;
+}
+
+.deletar-imovel-usuario input:hover {
+  background: rgb(220, 20, 20);
+  cursor: pointer;
+}
+
+.deletar-imovel-usuario p {
+  padding-top: 10px;
+}
+
+.iframe-detalhe {
+  margin: 20px 0 20px 100px;
+  border-radius: 15px;
+  box-shadow: 0px 2px 5px rgb(51, 51, 51, 0.4);
+}
+
+.detalhe {
+  margin: 10px 0 0 20px;
+  padding: 10px 20px;
+  box-shadow: 0px 2px 5px rgb(51, 51, 51, 0.2);
+  height: 85px;
+  border-radius: 4px;
+}
+
+.h3-detalhe {
+  font-weight: 500;
+}
+
+.detailpaddingfix {
+  padding-bottom: 570px;
+}
+
+/* FIM HEADER */
+
+.info-title {
+  font-size: 36px;
+  padding-top: 40px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.informacao {
+  font-size: 18px;
+  padding-top: 8px;
+  text-align: center;
+}
